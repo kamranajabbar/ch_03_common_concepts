@@ -30,8 +30,13 @@ pub fn run() {
     }
 
     //Create string with capacity
-    let mut s = String::with_capacity(10);
+    let mut s = String::with_capacity(3);
     s.push('a');
     s.push('b');
+    s.push('c');
+    s.push('d');
+    s.push('e');
+    s.push('f');
+    s.push_str("1234567");
     println!("{}", s);
 }

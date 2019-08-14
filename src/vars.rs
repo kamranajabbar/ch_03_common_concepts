@@ -11,7 +11,7 @@ pub fn run(){
     const ID: i32 = 0001;
     println!("My ID: {}", ID);
 
-    //Assign Multiple Vars
+    //Assign Multipal Vars
     let (name, age) = ("Kamran Jabbar", 30);
     println!("My name is {} and i am {} years old", name, age);
 }
