@@ -7,5 +7,5 @@ fn main() {
     //print::run();
     //vars::run();
     //types::run();
-    //strings::run();
+    strings::run();
 }
